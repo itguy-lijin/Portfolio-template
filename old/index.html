@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html>
+<title>Jin Wang</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="./assets/images/logo.png">
+<link rel="stylesheet" href="./assets/css/w3.css">
+<link rel="stylesheet" href="./assets/css/custom.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+</style>
+<body class="w3-light-grey w3-content" style="max-width:1600px; background-color: black;">
+  <div class="w3-button  w3-hover-black w3-border w3-border-white w3-hide-large w3-xlarge w3-card-4" style="position: fixed; top: 16px; left: 24px; background-color: white; border-radius: 50%;" onclick="w3_open()"><i class="fa fa-bars"></i></div>
+  <!-- <div class="w3-button w3-hover-black w3-border w3-border-white w3-xlarge w3-card-4 w3-text-white" title="Download Resume" style="position: fixed; bottom: 16px; right: 24px; background-color: grey; border-radius: 25%; z-index: 100;">
+    <a href="https://cvdesignr.com/p/6180ec0399755" target="_blank">
+      <i class="fa fa-download"></i>
+    </a>
+  </div> -->
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:200px;" id="mySidebar"><br>
+  <img src="assets/images/avatar_4.png" width="80%" style="margin-left: 10%; border-radius: 50%;"/>
+  <div class="w3-container">
+    <h3 class="w3-center"><b> Jin Wang </b></h3>
+    <h6 class="w3-text-grey w3-center"> Web & Blockchain Expert </h6>
+  </div>
+  <hr style="width: 80%; margin-left: 10%;"/>
+  <div class="w3-bar-block" style="padding-left: 20px; margin-top: 20px;">
+    <a onclick="w3_close('about')" class="w3-bar-item w3-button w3-hover-black w3-padding w3-hover w3-hover-text-white"><i class="fa fa-user fa-fw w3-margin-right"></i>ABOUT</a> 
+    <a onclick="w3_close('skills')" class="w3-bar-item w3-button  w3-hover-black w3-padding w3-hover w3-hover-text-white"><i class="fa fa-cogs fa-fw w3-margin-right"></i>SKILLS</a> 
+    <a onclick="w3_close('rate')" class="w3-bar-item w3-button  w3-hover-black w3-padding w3-hover w3-hover-text-white"><i class="fa fa-clock-o fa-fw w3-margin-right"></i>RATES</a> 
+    <a onclick="w3_close('portfolio')" class="w3-bar-item w3-button  w3-hover-black w3-padding w3-hover w3-hover-text-white"><i class="fa fa-th-large fa-fw w3-margin-right"></i>PORTFOLIO</a> 
+    <a onclick="w3_close('contact')" class="w3-bar-item w3-button  w3-hover-black w3-padding w3-hover w3-hover-text-white"><i class="fa fa-envelope fa-fw w3-margin-right"></i>CONTACT</a>
+  </div>
+
+</nav>
+
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:200px"  id="about">
+  <div class="w3-container">
+    <image src="./assets/images/avatar_3.png" width="100%"/>
+  </div>
+  <!-- Images of Me -->
+  <div class="w3-row-padding" style="padding: 0px 16px;">
+    <div class="w3-col m6" style="padding: 0px;">
+      <img  class="w3-card-4" src="./assets/images/avatar_1.jpg" alt="Me" style="width:100%;">
+    </div>
+    <div class="w3-col m6" style="padding: 0px;">
+      <img class="w3-card-4" src="./assets/images/avatar_2.png" alt="Me" style="width:100%;">
+    </div>
+  </div>
+
+  <div class="w3-container w3-padding-large" style="margin-bottom:32px;">
+    <h3><b>About Me</b></h3>
+    <hr style="width: 80%; border-color: lightgrey;" />
+    <p>
+      &nbsp;Hello, My name is Jin. <br/>
+      &nbsp;I'm a full stack web developer who have got deep experience of web design and development with Node.js. <br/>
+      Web site development is in my blood as I have been working as web developer for 8 years.
+      Throughout all these precious years I have made myself enrich with a lot of web related skills.
+      I believe in quality and confidence rather than quantity and more money earning policy.
+      I like difficult tasks to prove my ability as a Full stack developer.
+      I am ready to take any kind of challenges in any situation.
+      I always make sure of the quick turnaround of my job as I never disappoint any of my clients.
+      I am expert enough to manage any kind of job environment by coming up with my multitasking expertise.
+      I am honest and hardworking.<br/>&nbsp;
+      I always try to learn new things and update my previous knowledge. I have never exceeded time limits.
+      I am confident that I can carry your tasks efficiently and accurately.
+      I am committed to my clients and always focus on their respectable needs. 
+      And I work with 100% client satisfaction.
+      Just give me the task and sit back on your chair. All I need is your support and cooperation. I am hoping for a chance to work. <br/>
+      &nbsp;Thank you.
+    </p>
+    <hr>
+    
+    <h3 id="skills" class="w3-center"><b>Programing Languages & Tools</b></h3>
+    
+    <hr style="border-color: lightgrey;">
+    <h4> <i class="fa fa-tasks w3-margin-right"></i> Programing Languages </h4>
+      <div class="w3-container">
+        <code php class="w3-round-xlarge" style="width: 84px; font-size: 66px; margin: 3px; background-color: white;"><img height="80" width="80" style="background-color: white;" src="./assets/images/skills/php.png"></code>
+        <code python class="w3-round-xlarge" style="width: 84px; font-size: 66px; margin: 3px; background-color: white;"><img height="80" width="80" style="background-color: white;" src="./assets/images/skills/python.png"></code>
+        <code c# class="w3-round-xlarge" style="width: 84px; font-size: 66px; margin: 3px; background-color: white;"><img height="80" width="80" style="background-color: white;" src="./assets/images/skills/csharp.svg"></code>
+        <code html5 class="w3-round-xlarge" style="width: 84px; font-size: 66px; margin: 3px; background-color: white;"><img height="80" width="80" style="background-color: white;" src="./assets/images/skills/html.png"></code>
+        <code css3 class="w3-round-xlarge" style="width: 84px; font-size: 66px; margin: 3px; background-color: white;"><img height="80" width="80" style="background-color: white;" src="./assets/images/skills/css3.svg"></code>
+        <code js class="w3-round-xlarge" style="width: 84px; font-size: 66px; margin: 3px; background-color: white;"><img height="80" width="80" style="background-color: white;" src="./assets/images/skills/js.jpg"></code>
+        <code sass class="w3-round-xlarge" style="width: 84px; font-size: 66px; margin: 3px; background-color: white;"><img height="80" width="80" style="background-color: white;" src="./assets/images/skills/sass.png"></code>
+        <code typescript class="w3-round-xlarge" style="width: 84px; font-size: 66px; margin: 3px; background-color: white;"><img height="80" width="80" style="background-color: white;" src="./assets/images/skills/ts.png"></code>
+      </div>
+    <hr style="border-color: lightgrey;">
+
+    <h4> <i class="fa fa-desktop w3-margin-right"></i> Frontend </h4>
+      <div class="w3-container">
+        <code react class="w3-round-xlarge" style="width: 84px; font-size: 66px; margin: 3px; background-color: white;"><img height="80" width="80" style="background-color: white;" src="./assets/images/skills/react.png"></code>
+        <code react native class="w3-round-xlarge" style="width: 84px; font-size: 66px; margin: 3px; background-color: white;"><img height="80" width="80" style="background-color: white;" src="./assets/images/skills/reactNative.png"></code>
+        <code redux class="w3-round-xlarge" style="width: 84px; font-size: 66px; margin: 3px; background-color: white;"><img height="80" width="80" style="background-color: white;" src="./assets/images/skills/redux.png"></code>
+        <code next class="w3-round-xlarge" style="width: 84px; font-size: 66px; margin: 3px; background-color: white;"><img height="80" width="80" style="background-color: white;" src="./assets/images/skills/next.jpg"></code>
+        <code vue class="w3-round-xlarge" style="width: 84px; font-size: 66px; margin: 3px; background-color: white;"><img height="80" width="80" style="background-color: white;" src="./assets/images/skills/vue.png"></code>
+        <code material class="w3-round-xlarge" style="width: 84px; font-size: 66px; margin: 3px; background-color: white;"><img height="80" width="80" style="background-color: white;" src="./assets/images/skills/materialUI.png"></code>
+        <code antd class="w3-round-xlarge" style="width: 84px; font-size: 66px; margin: 3px; background-color: white;"><img height="80" width="80" style="background-color: white;" src="./assets/images/skills/antd.webp"></code>
+        <code tailwind class="w3-round-xlarge" style="width: 84px; font-size: 66px; margin: 3px; background-color: white;"><img height="80" width="80" style="background-color: white;" src="./assets/images/skills/tailwind.png"></code><!-- Back-end side -->
+        <code jquery class="w3-round-xlarge" style="width: 84px; font-size: 66px; margin: 3px; background-color: white;"><img height="80" width="80" style="background-color: white;" src="./assets/images/skills/jquery.png"></code>
+        <code bootstrap class="w3-round-xlarge" style="width: 84px; font-size: 66px; margin: 3px; background-color: white;"><img height="80" width="80" style="background-color: white;" src="./assets/images/skills/bootstrap.png"></code>
+        <code three class="w3-round-xlarge" style="width: 84px; font-size: 66px; margin: 3px; background-color: white;"><img height="80" width="80" style="background-color: white;" src="./assets/images/skills/three.png"></code>
+        <code babylonJS class="w3-round-xlarge" style="width: 84px; font-size: 66px; margin: 3px; background-color: white;"><img height="80" width="80" style="background-color: white;" src="./assets/images/skills/babylon.png"></code>
+        <code d3 class="w3-round-xlarge" style="width: 84px; font-size: 66px; margin: 3px; background-color: white;"><img height="80" width="80" style="background-color: white;" src="./assets/images/skills/d3.svg"></code>
+        <code webgl class="w3-round-xlarge" style="width: 84px; font-size: 66px; margin: 3px; background-color: white;"><img height="80" width="80" style="background-color: white;" src="./assets/images/skills/webgl.png"></code>
+        <code chartjs class="w3-round-xlarge" style="width: 84px; font-size: 66px; margin: 3px; background-color: white;"><img height="80" width="80" style="background-color: white;" src="./assets/images/skills/chartjs.svg"></code>
+        
+      </div>
+    <hr style="border-color: lightgrey;">
+
+    <h4> <i class="fa fa-laptop w3-margin-right"></i> Backend </h4>
+      <div class="w3-container">
+        <code node class="w3-round-xlarge" style="width: 84px; font-size: 66px; margin: 3px; background-color: white;"><img height="80" width="80" style="background-color: white;" src="./assets/images/skills/node.jpg"></code>
+        <code express class="w3-round-xlarge" style="width: 84px; font-size: 66px; margin: 3px; background-color: white;"><img height="80" width="80" style="background-color: white;" src="./assets/images/skills/express.png"></code>
+        <code codeigniter class="w3-round-xlarge" style="width: 84px; font-size: 66px; margin: 3px; background-color: white;"><img height="80" width="80" style="background-color: white;" src="./assets/images/skills/ci.svg"></code>
+        <code laravel class="w3-round-xlarge" style="width: 84px; font-size: 66px; margin: 3px; background-color: white;"><img height="80" width="80" style="background-color: white;" src="./assets/images/skills/laravel.jpg"></code>
+        
+      </div>
+    <hr style="border-color: lightgrey;">
+
+    <h4> <i class="fa fa-chain w3-margin-right"></i>  Blockchain </h4>
+      <div class="w3-container">
+        <code blockchain class="w3-round-xlarge" style="width: 84px; font-size: 66px; margin: 3px; background-color: white;"><img height="80" width="80" style="background-color: white;" src="./assets/images/skills/blockchain.jpg"></code>
+        <code bitcoin class="w3-round-xlarge" style="width: 84px; font-size: 66px; margin: 3px; background-color: white;"><img height="80" width="80" style="background-color: white;" src="./assets/images/skills/bitcoin.png"></code>
+        <code ethereum class="w3-round-xlarge" style="width: 84px; font-size: 66px; margin: 3px; background-color: white;"><img height="80" width="80" style="background-color: white;" src="./assets/images/skills/ethereum.png"></code>
+        <code binanceCoin class="w3-round-xlarge" style="width: 84px; font-size: 66px; margin: 3px; background-color: white;"><img height="80" width="80" style="background-color: white;" src="./assets/images/skills/binanceCoin.jpg"></code>
+        <code litecoin class="w3-round-xlarge" style="width: 84px; font-size: 66px; margin: 3px; background-color: white;"><img height="80" width="80" style="background-color: white;" src="./assets/images/skills/litecoin.jpg"></code><!-- Automation scraping -->
+        
+      </div>
+    <hr style="border-color: lightgrey;">
+
+    <h4> <i class="fa fa-list-alt w3-margin-right"></i> Other Skills </h4>
+      <div class="w3-container">
+        <code webRTC class="w3-round-xlarge" style="width: 84px; font-size: 66px; margin: 3px; background-color: white;"><img height="80" width="80" style="background-color: white;" src="./assets/images/skills/webRTC.png"></code>
+        <code git class="w3-round-xlarge" style="width: 84px; font-size: 66px; margin: 3px; background-color: white;"><img height="80" width="80" style="background-color: white;" src="./assets/images/skills/git.png"></code>
+        <code github class="w3-round-xlarge" style="width: 84px; font-size: 66px; margin: 3px; background-color: white;"><img height="80" width="80" style="background-color: white;" src="./assets/images/skills/github.png"></code>
+        <code gitlab class="w3-round-xlarge" style="width: 84px; font-size: 66px; margin: 3px; background-color: white;"><img height="80" width="80" style="background-color: white;" src="./assets/images/skills/gitlab.png"></code>
+        <code docker class="w3-round-xlarge" style="width: 84px; font-size: 66px; margin: 3px; background-color: white;"><img height="80" width="80" style="background-color: white;" src="./assets/images/skills/docker.png" ></code>
+        
+      </div>
+    <hr style="border-color: lightgrey;">
+
+    <h4> <i class="fa fa-database w3-margin-right"></i> Database </h4>
+      <div class="w3-container">
+        <code mongoDB class="w3-round-xlarge" style="width: 84px; font-size: 66px; margin: 3px; background-color: white;"><img height="80" width="80" style="background-color: white;" src="./assets/images/skills/mongodb.jpg"></code>
+        <code ??? class="w3-round-xlarge" style="width: 84px; font-size: 66px; margin: 3px; background-color: white;"><img height="80" width="80" style="background-color: white;" src="./assets/images/skills/cloudmongo.png"></code>
+        <code firebase class="w3-round-xlarge" style="width: 84px; font-size: 66px; margin: 3px; background-color: white;"><img height="80" width="80" style="background-color: white;" src="./assets/images/skills/firebase.png"></code>
+        <code graphQL class="w3-round-xlarge" style="width: 84px; font-size: 66px; margin: 3px; background-color: white;"><img height="80" width="80" style="background-color: white;" src="./assets/images/skills/graphql.svg"></code><!-- DataBase -->
+        <code mysql class="w3-round-xlarge" style="width: 84px; font-size: 66px; margin: 3px; background-color: white;"><img height="80" width="80" style="background-color: white;" src="./assets/images/skills/mysql.webp"></code>
+        <code sqlite class="w3-round-xlarge" style="width: 84px; font-size: 66px; margin: 3px; background-color: white;"><img height="80" width="80" style="background-color: white;" src="./assets/images/skills/sqlite.png"></code>
+        <code postgreSQL class="w3-round-xlarge" style="width: 84px; font-size: 66px; margin: 3px; background-color: white;"><img height="80" width="80" style="background-color: white;" src="./assets/images/skills/postgresql.png"></code>
+        
+      </div>
+    <hr style="border-color: lightgrey;">
+
+    <h4> <i class="fa fa-balance-scale w3-margin-right"></i> Testing Tools </h4>
+      <div class="w3-container">
+        <code mocha class="w3-round-xlarge" style="width: 84px; font-size: 66px; margin: 3px; background-color: white;"><img height="80" width="80" style="background-color: white;" src="./assets/images/skills/mocha.svg"></code>
+        <code jasmine class="w3-round-xlarge" style="width: 84px; font-size: 66px; margin: 3px; background-color: white;"><img height="80" width="80" style="background-color: white;" src="./assets/images/skills/jasmine.png"></code>
+        <code postman class="w3-round-xlarge" style="width: 84px; font-size: 66px; margin: 3px; background-color: white;"><img height="80" width="80" style="background-color: white;" src="./assets/images/skills/postman.png"></code><!-- git, cloud, OS -->
+        
+      </div>
+    <hr style="border-color: lightgrey;">
+
+    <h4> <i class="fa fa-cloud w3-margin-right"></i> Gloud Computing </h4>
+      <div class="w3-container">
+        <code aws class="w3-round-xlarge" style="width: 84px; font-size: 66px; margin: 3px; background-color: white;"><img height="80" width="80" style="background-color: white;" src="./assets/images/skills/aws.png"></code>
+        <code googleCloud class="w3-round-xlarge" style="width: 84px; font-size: 66px; margin: 3px; background-color: white;"><img height="80" width="80" style="background-color: white;" src="./assets/images/skills/googlecloud.svg"></code>
+        <code azure class="w3-round-xlarge" style="width: 84px; font-size: 66px; margin: 3px; background-color: white;"><img height="80" width="80" style="background-color: white;" src="./assets/images/skills/azure.png"></code>
+        
+      </div>
+    <hr style="border-color: lightgrey;">
+    
+    <h4> <i class="fa fa-laptop w3-margin-right"></i> Operation System </h4>
+      <div class="w3-container">
+        <code windows class="w3-round-xlarge" style="width: 84px; font-size: 66px; margin: 3px; background-color: white;"><img height="80" width="80" style="background-color: white;" src="./assets/images/skills/windows.png" ></code>
+        <code Linux class="w3-round-xlarge" style="width: 84px; font-size: 66px; margin: 3px; background-color: white;"><img height="80" width="80" style="background-color: white;" src="./assets/images/skills/linux.png" ></code>
+        <code MacOX class="w3-round-xlarge" style="width: 84px; font-size: 66px; margin: 3px; background-color: white;"><img height="80" width="80" style="background-color: white;" src="./assets/images/skills/macox.png" ></code>
+      </div>    
+    <hr style="border-color: lightgrey;">
+    <!-- <p>
+      <button class="w3-button w3-blue w3-hover-black w3-padding-large w3-margin-top w3-margin-bottom">
+        <a href="https://cvdesignr.com/p/6180ec0399755" target="_blank">
+          <i class="fa fa-download w3-margin-right"></i>Download Resume
+        </a>
+      </button>
+    </p> -->
+    <hr>
+    
+    <h3 id="rate"><b>How much I charge</b></h3>
+    <!-- Pricing Tables -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-third w3-margin-bottom">
+        <ul class="w3-ul w3-border w3-white w3-center">
+          <li class="w3-black w3-xlarge w3-padding-32">Frontend</li>
+          <li class="w3-padding-16">FE Development</li>
+          <li class="w3-padding-16">API Integration</li>
+          <li class="w3-padding-16">Design Update</li>
+          <li class="w3-padding-16">FE Converting</li>
+          <li class="w3-padding-16">
+            <h2>$ 30</h2>
+            <span class="w3-opacity">per hour</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-blue w3-padding-large w3-hover-black">
+              <a href="mailTo: jinwangdev531@gmail.com?Subject=I'd like to invite you as a Frontend developer.">Invite</a>
+            </button>
+          </li>
+        </ul>
+      </div>
+      
+      <div class="w3-third w3-margin-bottom">
+        <ul class="w3-ul w3-border w3-white w3-center">
+          <li class="w3-blue w3-xlarge w3-padding-32">Backend</li>
+          <li class="w3-padding-16">API Development</li>
+          <li class="w3-padding-16">DB Architecture</li>
+          <li class="w3-padding-16">RESTful API</li>
+          <li class="w3-padding-16">DB Management</li>
+          <li class="w3-padding-16">
+            <h2>$ 35</h2>
+            <span class="w3-opacity">per hour</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-blue w3-padding-large w3-hover-black">              
+              <a href="mailTo: jinwangdev531@gmail.com?Subject=I'd like to invite you as a Backend developer.">Invite</a>
+            </button>
+          </li>
+        </ul>
+      </div>
+      
+      <div class="w3-third">
+        <ul class="w3-ul w3-border w3-white w3-center">
+          <li class="w3-black w3-xlarge w3-padding-32">Blockchain</li>
+          <li class="w3-padding-16">Smart Contract</li>
+          <li class="w3-padding-16">Forking</li>
+          <li class="w3-padding-16">NFT Minting</li>
+          <li class="w3-padding-16">Deployment</li>
+          <li class="w3-padding-16">
+            <h2>$ 40</h2>
+            <span class="w3-opacity">per hour</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-blue w3-padding-large w3-hover-black">              
+              <a href="mailTo: jinwangdev531@gmail.com?Subject=I'd like to invite you as a blockchain developer.">Invite</a>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  
+  <div id="portfolio">
+    <div class="w3-container">
+      <h1><b>My Portfolio</b></h1>
+      <div class="w3-section w3-bottombar"></div>
+    </div>
+  </div>
+  
+ 
+  <div class="slides  w3-animate-left">
+    <div class="w3-row-padding">
+      <div class="w3-third w3-container w3-margin-bottom">
+        <img  src="./assets/images/portfolios/colexion-1.png" alt="Norway" style="width:100%" class=" w3-hover-opacity w3-border w3-border-grey">
+        <div class="w3-container w3-white w3-border w3-border-grey w3-border-top-white" style="margin-top: -1px;;">
+          <p><b><a class="w3-text-blue" href="https://colexion.io/" target="_blank"> COLEXION (1)</a></b></p>
+          <p> React + Solidity + SmartContract</p>
+        </div>
+      </div>
+      <div class="w3-third w3-container w3-margin-bottom">
+        <img src="./assets/images/portfolios/colexion-2.png" alt="Norway" style="width:100%" class=" w3-hover-opacity w3-border w3-border-grey">
+        <div class="w3-container w3-white w3-border w3-border-grey w3-border-top-white" style="margin-top: -1px;;">
+          <p><b><a class="w3-text-blue" href="https://colexion.io/" target="_blank"> COLEXION (2)</a></b></p>
+          <p> React + Solidity + SmartContract</p>
+        </div>
+      </div>
+      <div class="w3-third w3-container">
+        <img src="./assets/images/portfolios/colexion-3.png" alt="Norway" style="width:100%" class=" w3-hover-opacity w3-border w3-border-grey">
+        <div class="w3-container w3-white w3-border w3-border-grey w3-border-top-white" style="margin-top: -1px;;">
+          <p><b><a class="w3-text-blue" href="https://colexion.io/" target="_blank"> COLEXION (3)</a></b></p>
+          <p> React + Solidity + SmartContract</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-row-padding">
+      <div class="w3-third w3-container w3-margin-bottom">
+        <img src="./assets/images/portfolios/solsnatchers-1.png" alt="Norway" style="width:100%" class=" w3-hover-opacity w3-border w3-border-grey">
+        <div class="w3-container w3-white w3-border w3-border-grey w3-border-top-white" style="margin-top: -1px;;">
+          <p><b><a class="w3-text-blue" href="https://solsnatchers.com/" target="_blank"> Solsnatchers (1)</a></b></p>
+          <p> Solana + Rust </p>
+        </div>
+      </div>
+      <div class="w3-third w3-container w3-margin-bottom">
+        <img src="./assets/images/portfolios/solsnatchers-2.png" alt="Norway" style="width:100%" class=" w3-hover-opacity w3-border w3-border-grey">
+        <div class="w3-container w3-white w3-border w3-border-grey w3-border-top-white" style="margin-top: -1px;;">
+          <p><b><a class="w3-text-blue" href="https://solsnatchers.com/" target="_blank"> Solsnatchers (2)</a></b></p>
+          <p> Solana + Rust </p>
+        </div>
+      </div>
+      <div class="w3-third w3-container">
+        <img src="./assets/images/portfolios/solsnatchers-3.png" alt="Norway" style="width:100%" class=" w3-hover-opacity w3-border w3-border-grey">
+        <div class="w3-container w3-white w3-border w3-border-grey w3-border-top-white" style="margin-top: -1px;;">
+          <p><b><a class="w3-text-blue" href="https://solsnatchers.com/" target="_blank"> Solsnatchers (3)</a></b></p>
+          <p> Solana + Rust</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="slides  w3-animate-left">
+    <div class="w3-row-padding">
+      <div class="w3-third w3-container w3-margin-bottom">
+        <img src="./assets/images/portfolios/bluejestic-1.png" alt="Norway" style="width:100%" class=" w3-hover-opacity w3-border w3-border-grey">
+        <div class="w3-container w3-white w3-border w3-border-grey w3-border-top-white" style="margin-top: -1px;;">
+          <p><b><a class="w3-text-blue" href="https://bluejestic.com/" target="_blank"> Bluejestic (1)</a></b></p>
+          <p> ReactHooks + Next + TypeScript + TailwindCss </p>
+        </div>
+      </div>
+      <div class="w3-third w3-container w3-margin-bottom">
+        <img src="./assets/images/portfolios/bluejestic-2.png" alt="Norway" style="width:100%" class=" w3-hover-opacity w3-border w3-border-grey">
+        <div class="w3-container w3-white w3-border w3-border-grey w3-border-top-white" style="margin-top: -1px;;">
+          <p><b><a class="w3-text-blue" href="https://bluejestic.com/ " target="_blank"> Bluejestic (2)</a></b></p>
+          <p> ReactHooks + Next + TypeScript + TailwindCss </p>
+        </div>
+      </div>
+      <div class="w3-third w3-container">
+        <img src="./assets/images/portfolios/bluejestic-3.png" alt="Norway" style="width:100%" class=" w3-hover-opacity w3-border w3-border-grey">
+        <div class="w3-container w3-white w3-border w3-border-grey w3-border-top-white" style="margin-top: -1px;;">
+          <p><b><a class="w3-text-blue" href="https://bluejestic.com/ " target="_blank"> Bluejestic (3)</a></b></p>
+          <p> ReactHooks + Next + TypeScript + TailwindCss </p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-row-padding">
+      <div class="w3-third w3-container w3-margin-bottom">
+        <img src="./assets/images/portfolios/momnpop-1.png" alt="Norway" style="width:100%" class=" w3-hover-opacity w3-border w3-border-grey">
+        <div class="w3-container w3-white w3-border w3-border-grey w3-border-top-white" style="margin-top: -1px;;">
+          <p><b><a class="w3-text-blue" href="https://test.momnpophub.com/" target="_blank"> Mom n pop Hub (1)</a></b></p>
+          <p>MERN Stack </p>
+        </div>
+      </div>
+      <div class="w3-third w3-container w3-margin-bottom">
+        <img src="./assets/images/portfolios/momnpop-2.png" alt="Norway" style="width:100%" class=" w3-hover-opacity w3-border w3-border-grey">
+        <div class="w3-container w3-white w3-border w3-border-grey w3-border-top-white" style="margin-top: -1px;;">
+          <p><b><a class="w3-text-blue" href="https://test.momnpophub.com/" target="_blank"> Mom n pop Hub (2)</a></b></p>
+          <p>MERN Stack </p>
+        </div>
+      </div>
+      <div class="w3-third w3-container">
+        <img src="./assets/images/portfolios/momnpop-3.png" alt="Norway" style="width:100%" class=" w3-hover-opacity w3-border w3-border-grey">
+        <div class="w3-container w3-white w3-border w3-border-grey w3-border-top-white" style="margin-top: -1px;;">
+          <p><b><a class="w3-text-blue" href="https://test.momnpophub.com/" target="_blank"> Mom n pop Hub (3)</a></b></p>
+          <p>MERN Stack </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="slides  w3-animate-left">
+    
+    <div class="w3-row-padding">
+      <div class="w3-third w3-container w3-margin-bottom">
+        <img src="./assets/images/portfolios/shop-qc-terme-1.png" alt="Norway" style="width:100%" class=" w3-hover-opacity w3-border w3-border-grey">
+        <div class="w3-container w3-white w3-border w3-border-grey w3-border-top-white" style="margin-top: -1px;;">
+          <p><b><a class="w3-text-blue" href="https://shop.qcterme.com/ " target="_blank"> QC Terme Shop (1)</a></b></p>
+          <p> React + Redux + NodeJS + Firebase</p>
+        </div>
+      </div>
+      <div class="w3-third w3-container w3-margin-bottom">
+        <img src="./assets/images/portfolios/shop-qc-terme-2.png" alt="Norway" style="width:100%" class=" w3-hover-opacity w3-border w3-border-grey">
+        <div class="w3-container w3-white w3-border w3-border-grey w3-border-top-white" style="margin-top: -1px;;">
+          <p><b><a class="w3-text-blue" href="https://shop.qcterme.com/ " target="_blank"> QC Terme Shop (2)</a></b></p>
+          <p> React + Redux + NodeJS + Firebase</p>
+        </div>
+      </div>
+      <div class="w3-third w3-container">
+        <img src="./assets/images/portfolios/shop-qc-terme-4.png" alt="Norway" style="width:100%" class=" w3-hover-opacity w3-border w3-border-grey">
+        <div class="w3-container w3-white w3-border w3-border-grey w3-border-top-white" style="margin-top: -1px;;">
+          <p><b><a class="w3-text-blue" href="https://shop.qcterme.com/ " target="_blank"> QC Terme Shop (3)</a></b></p>
+          <p> React + Redux + NodeJS + Firebase</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-row-padding">
+      <div class="w3-third w3-container w3-margin-bottom">
+        <img src="./assets/images/portfolios/accounting-1.png" alt="Norway" style="width:100%" class=" w3-hover-opacity w3-border w3-border-grey">
+        <div class="w3-container w3-white w3-border w3-border-grey w3-border-top-white" style="margin-top: -1px;;">
+          <p><b><a class="w3-text-blue" href="https://www.accointing.com/" target="_blank"> ACCOINTING (1)</a></b></p>
+          <p> ReactJS + NextJS + NodeJS </p>
+        </div>
+      </div>
+      <div class="w3-third w3-container w3-margin-bottom">
+        <img src="./assets/images/portfolios/accounting-2.png" alt="Norway" style="width:100%" class=" w3-hover-opacity w3-border w3-border-grey">
+        <div class="w3-container w3-white w3-border w3-border-grey w3-border-top-white" style="margin-top: -1px;;">
+          <p><b><a class="w3-text-blue" href="https://www.accointing.com/" target="_blank"> ACCOINTING (2)</a></b></p>
+          <p> ReactJS + NextJS + NodeJS </p>
+        </div>
+      </div>
+      <div class="w3-third w3-container">
+        <img src="./assets/images/portfolios/accounting-3.png" alt="Norway" style="width:100%" class=" w3-hover-opacity w3-border w3-border-grey">
+        <div class="w3-container w3-white w3-border w3-border-grey w3-border-top-white" style="margin-top: -1px;;">
+          <p><b><a class="w3-text-blue" href="https://www.accointing.com/" target="_blank"> ACCOINTING (3)</a></b></p>
+          <p> ReactJS + NextJS + NodeJS </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="slides  w3-animate-left">
+    <div class="w3-row-padding">
+      <div class="w3-third w3-container w3-margin-bottom">
+        <img src="./assets/images/portfolios/graphic-rhino-1.png" alt="Norway" style="width:100%" class=" w3-hover-opacity w3-border w3-border-grey">
+        <div class="w3-container w3-white w3-border w3-border-grey w3-border-top-white" style="margin-top: -1px;;">
+          <p><b><a class="w3-text-blue" href="https://graphicrhino.be/" target="_blank"> Graphic Rhino (1)</a></b></p>
+          <p>React Hooks + SASS + Firebase </p>
+        </div>
+      </div>
+      <div class="w3-third w3-container w3-margin-bottom">
+        <img src="./assets/images/portfolios/graphic-rhino-2.png" alt="Norway" style="width:100%" class=" w3-hover-opacity w3-border w3-border-grey">
+        <div class="w3-container w3-white w3-border w3-border-grey w3-border-top-white" style="margin-top: -1px;;">
+          <p><b><a class="w3-text-blue" href="https://graphicrhino.be/" target="_blank"> Graphic Rhino (2)</a></b></p>
+          <p>React Hooks + SASS + Firebase </p>
+        </div>
+      </div>
+      <div class="w3-third w3-container">
+        <img src="./assets/images/portfolios/graphic-rhino-3.png" alt="Norway" style="width:100%" class=" w3-hover-opacity w3-border w3-border-grey">
+        <div class="w3-container w3-white w3-border w3-border-grey w3-border-top-white" style="margin-top: -1px;;">
+          <p><b><a class="w3-text-blue" href="https://graphicrhino.be/" target="_blank"> Graphic Rhino (3)</a></b></p>
+          <p>React Hooks + SASS + Firebase</p>
+        </div>
+      </div>
+    </div>    
+    
+    <div class="w3-row-padding">
+      <div class="w3-third w3-container w3-margin-bottom">
+        <img src="./assets/images/portfolios/travelstop-1.png" alt="Norway" style="width:100%" class=" w3-hover-opacity w3-border w3-border-grey">
+        <div class="w3-container w3-white w3-border w3-border-grey w3-border-top-white" style="margin-top: -1px;;">
+          <p><b><a class="w3-text-blue" href="https://www.travelstop.com/" target="_blank"> TravelStop (1)</a></b></p>
+          <p> VueJS + NuxtJS </p>
+        </div>
+      </div>
+      <div class="w3-third w3-container w3-margin-bottom">
+        <img src="./assets/images/portfolios/travelstop-2.png" alt="Norway" style="width:100%" class=" w3-hover-opacity w3-border w3-border-grey">
+        <div class="w3-container w3-white w3-border w3-border-grey w3-border-top-white" style="margin-top: -1px;;">
+          <p><b><a class="w3-text-blue" href="https://www.travelstop.com/" target="_blank"> TravelStop (2)</a></b></p>
+          <p> VueJS + NuxtJS </p>
+        </div>
+      </div>
+      <div class="w3-third w3-container">
+        <img src="./assets/images/portfolios/travelstop-3.png" alt="Norway" style="width:100%" class=" w3-hover-opacity w3-border w3-border-grey">
+        <div class="w3-container w3-white w3-border w3-border-grey w3-border-top-white" style="margin-top: -1px;;">
+          <p><b><a class="w3-text-blue" href="https://www.travelstop.com/" target="_blank"> TravelStop (3)</a></b></p>
+          <p> VueJS + NuxtJS </p>
+        </div>
+      </div>
+    </div>
+  </div> 
+
+  <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a  onclick="plusDivs(-1)" class="w3-bar-item w3-button w3-hover-black">«</a>
+      <a onclick="showDivs(1)" class="paginations w3-bar-item w3-button w3-black">1</a>
+      <a onclick="showDivs(2)" class="paginations w3-bar-item w3-button w3-hover-black">2</a>
+      <a onclick="showDivs(3)" class="paginations w3-bar-item w3-button w3-hover-black">3</a>
+      <a onclick="showDivs(4)" class="paginations w3-bar-item w3-button w3-hover-black">4</a>
+      <a onclick="plusDivs(1)" class="w3-bar-item w3-button w3-hover-black">»</a>
+    </div>
+  </div>
+
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-large w3-grey">
+    <h4 id="contact"><b class="w3-text-white">Contact Me</b></h4>
+    <div class="w3-row-padding w3-center w3-padding-24" style="margin:0 -16px">
+      <div class="w3-third w3-dark-grey">
+        <p><i class="fa fa-envelope w3-xxlarge w3-text-light-grey"></i></p>
+        <p>jinwangdev531@gmail.com</p>
+      </div>
+      <div class="w3-third w3-blue">
+        <p><i class="fa fa-clock-o w3-xxlarge w3-text-light-grey"></i></p>
+        <p>Full Time Availability</p>
+      </div>
+      <div class="w3-third w3-dark-grey">
+        <p><i class="fa fa-github w3-xxlarge w3-text-light-grey"></i></p>
+        <p><a href="https://github.com/FantasticFullStackDev" target="_blank" title="https://github.com/FantasticFullStackDev"> Git Hub </a></p>
+      </div>
+      <div class="w3-third w3-blue">
+        <p><i class="fa fa-telegram w3-xxlarge w3-text-light-grey"></i></p>
+        <p><a href="https://t.me/WebDevNinja" target="_blank" title="https://t.me/WebDevNinja"> Telegram </a></p>
+      </div>
+      <div class="w3-third w3-dark-grey">
+        <p><i class="fa fa-skype w3-xxlarge w3-text-light-grey"></i></p>
+        <p><a href="https://join.skype.com/invite/FoWj6FCMMNhh" target="_blank" title="https://join.skype.com/invite/FoWj6FCMMNhh"> Skype </a></p>
+      </div>
+      <div class="w3-third w3-blue">
+        <p>
+          <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="discord" 
+          class="svg-inline--fa fa-discord" role="img" xmlns="http://www.w3.org/2000/svg" 
+          viewBox="0 0 640 512" style="width: 39px">
+            <path fill="currentColor" d="M524.5 69.84a1.5 1.5 0 0 0 -.764-.7A485.1 485.1 0 0 0 404.1 32.03a1.816 
+            1.816 0 0 0 -1.923 .91 337.5 337.5 0 0 0 -14.9 30.6 447.8 447.8 0 0 0 -134.4 0 309.5 309.5 0 0 0 
+            -15.14-30.6 1.89 1.89 0 0 0 -1.924-.91A483.7 483.7 0 0 0 116.1 69.14a1.712 1.712 0 0 0 -.788 .676C39.07 
+            183.7 18.19 294.7 28.43 404.4a2.016 2.016 0 0 0 .765 1.375A487.7 487.7 0 0 0 176 479.9a1.9 1.9 0 0 0 
+            2.063-.676A348.2 348.2 0 0 0 208.1 430.4a1.86 1.86 0 0 0 -1.019-2.588 321.2 321.2 0 0 1 -45.87-21.85 
+            1.885 1.885 0 0 1 -.185-3.126c3.082-2.309 6.166-4.711 9.109-7.137a1.819 1.819 0 0 1 1.9-.256c96.23 43.92 200.4 
+            43.92 295.5 0a1.812 1.812 0 0 1 1.924 .233c2.944 2.426 6.027 4.851 9.132 7.16a1.884 1.884 0 0 1 -.162 
+            3.126 301.4 301.4 0 0 1 -45.89 21.83 1.875 1.875 0 0 0 -1 2.611 391.1 391.1 0 0 0 30.01 48.81 1.864 1.864 
+            0 0 0 2.063 .7A486 486 0 0 0 610.7 405.7a1.882 1.882 0 0 0 .765-1.352C623.7 277.6 590.9 167.5 524.5 
+            69.84zM222.5 337.6c-28.97 0-52.84-26.59-52.84-59.24S193.1 219.1 222.5 219.1c29.67 0 53.31 26.82 52.84 
+            59.24C275.3 310.1 251.9 337.6 222.5 337.6zm195.4 0c-28.97 0-52.84-26.59-52.84-59.24S388.4 219.1 417.9 
+            219.1c29.67 0 53.31 26.82 52.84 59.24C470.7 310.1 447.5 337.6 417.9 337.6z"></path>
+          </svg>
+      </p>
+        <p><a href="https://discord.gg/WZKJTNJE" target="_blank" title="https://discord.gg/WZKJTNJE"> Discord </a></p>
+      </div>
+    </div>
+    <hr class="w3-opacity">
+    <!-- <div class="w3-section">
+      <label>Name</label>
+      <input class="w3-input w3-border" type="text" id="Name" required>
+    </div> -->
+    <div class="w3-section">
+      <label>Title</label>
+      <input class="w3-input w3-border" type="text" id="Title" required>
+    </div>
+    <div class="w3-section">
+      <label>Message</label>
+      <input class="w3-input w3-border" type="text" id="Message" required>
+      <!-- <textarea id="Message" rows="4" style="width: 100%; border: 0px solid grey;"></textarea> -->
+    </div>
+    <button id="sendMail" class="w3-button w3-blue w3-hover-black w3-margin-bottom" onclick="sendMail()">Send Message</button>
+  </div>
+  
+  <div class="w3-black w3-center w3-padding-24"> Last Updated On Jan 1 2022 </a></div>
+
+<!-- End page content -->
+</div>
+<script src="./assets/js/jquery-3.5.1.min.js"></script>
+<script src="./assets/js/custom.js"></script>
+</body>
+</html>
